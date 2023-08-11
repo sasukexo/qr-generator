@@ -19,9 +19,18 @@ legend{
     line-height: inherit;
     color: #333;
     border: 0;
+    font-family: 'Handjet', cursive;
+    font-style: bold;
+    font-size: 50px;
+    font-style: underline;
 }
 .form-control {
     background-color: lightgray;
     color: black;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 15px;
     /* Add any other styles you want */
+}
+span{
+    font-family: 'Gochi Hand', cursive;
 }
