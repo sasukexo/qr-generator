@@ -1,7 +1,24 @@
 body {
-    margin: 20px;
-  }
-  
-  #qrious {
-    padding-bottom: 20px;
-  }
+  margin: 20px;
+  background-color: #ADC4CE;
+}
+
+#qrious {
+  padding-bottom: 20px;
+}
+legend{
+    display: block;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+}
+.form-control {
+    background-color: lightgray;
+    color: black;
+    /* Add any other styles you want */
+}

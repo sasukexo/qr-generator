@@ -10,7 +10,7 @@ var $value = document.getElementById('demo-value');
 var qr = window.qr = new QRious({
   element: document.getElementById('qrious'),
   size: 250,
-  value: 'QRious'
+  value: 'sasuke.me'
 });
 
 $background.addEventListener('change', function() {
@@ -47,7 +47,7 @@ $size.addEventListener('change', function() {
   qr.size = $size.value || null;
 });
 
-$value.value = 'QRious';
+$value.value = 'sasuke.me';
 $value.addEventListener('input', function() {
   qr.value = $value.value;
 });
