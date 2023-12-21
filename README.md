@@ -1,4 +1,4 @@
 # qr-generator
-### Y ###
+\
 
 
